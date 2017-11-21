@@ -9,12 +9,12 @@
     name: 'hello',
     data () {
       return {
-        msg: ''
+        msg: 'sdfgs'
       }
     }
   }
 </script>
 
-<style scoped>
- @import "../assets/less/core/index.less";
+<style scoped lang="less">
+  @import "../assets/less/core/index.less";
 </style>
