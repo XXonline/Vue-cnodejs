@@ -2,8 +2,11 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
-import './assets/less/mixins/reset.less'
 import router from './router'
+import MuseUI from 'muse-ui'
+import './assets/less/mixins/reset.less'
+import 'muse-ui/dist/muse-ui.css'
+Vue.use(MuseUI)
 
 Vue.config.productionTip = false
 
